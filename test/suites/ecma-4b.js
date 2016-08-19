@@ -333,6 +333,8 @@ define(['pumascript', 'esprima'], function(puma, esprima) {
         equal( errorMessage, true, "Passed!");
     });
     
+});
+    
      /* VER COMO PROBAR ESTO EN LA CONSOLA
     test("try catch", function(){
         var result = puma.evalPuma("try { return; } catch (err) { m = err.message; } m;");
